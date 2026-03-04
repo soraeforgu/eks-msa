@@ -9,10 +9,10 @@ metadata:
 spec:
   tls:
   - hosts:
-      - argo.aws-esk.com
-    secretName: argo-aws-esk-com-tls
+      - argo.kanges.click
+    secretName: argo-kanges-click
   rules:
-  - host: argo.aws-esk.com
+  - host: argo.kanges.click
     http:
       paths:
         - path: /
